@@ -1,0 +1,49 @@
+.about{
+    display: grid;
+    grid-template-columns: 45% 50%;
+    column-gap: 3%;
+   // border: 2px solid black;
+    .about_img{
+        margin-top: 1.8rem;
+        img{
+            width:25rem;
+            height: 22rem;
+        }
+    }
+    .about_info{
+      //  border: 3px solid black;
+        h2{
+            color: #413e66;
+            font-size: 2rem;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+        }
+        h3{
+            color: #696592;
+            font-weight: 400;
+            font-size: 22px;
+            font-style: italic;
+        }
+        p{
+            font-size: 1rem;
+           // border: 2px solid black;
+            margin: 0 0 1.8rem;
+            color: #444444;
+        }
+        ul 
+        {
+            border: 2px solid black !important;
+            padding: 0 !important;
+            margin-bottom: 5rem;
+            li{
+        list-style: none;
+        color: #444444;
+        padding-bottom: 1rem;
+        .anticon{
+            color: #1bb1dc;
+            // padding-right: 0.5rem;
+        }
+        }
+    }
+}
+}

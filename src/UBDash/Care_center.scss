@@ -1,0 +1,26 @@
+.care_center{
+    // width: 75%;
+    // border: 1px solid black;
+    // box-shadow: 0 0 1px hsla(0,0%,50.2%,.3);
+    text-transform: capitalize;
+    margin-bottom: 3rem;
+    .recommend{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 1.5rem;
+        h3{
+            font-size: 1rem;
+            font-weight: 700;
+            margin-left: 0.5rem;
+            font-family: "Poppins",sans-serif!important;
+        }
+    }
+    .centers{
+        display: grid;
+        grid-template-columns: 32% 32% 32%;
+        grid-gap: 2%;
+        height: 58rem;
+        margin: 0 1rem;
+    }
+}

@@ -1,0 +1,36 @@
+.UBHeader{
+    // border: 3px solid black;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    padding-left: 2.5rem;
+    height: 4rem;
+    width: 100%;
+    z-index: 100;
+    .header_img{
+        img{
+            height: 30%;
+            width: 30%;
+        }
+    }
+    .header_info{
+        display: flex;
+        justify-content: center;
+        column-gap: 3%;
+        #drop{
+            border: none;
+        }
+        .login{
+            width: 6rem;
+            background-color: #2d80b5;
+            color: white;
+        }
+        .partner{
+            background-color: #0cbfc2;
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,151 @@
+body{
+   
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.head{
+display: flex;
+border-bottom: 1px solid black;
+height: 10vh;
+
+
+}
+.header_1{
+    width: 40rem;
+    /* border: 3px solid red; */
+    display: flex;
+    height: 4rem;
+    width: 60vw;
+    /* margin-left: 1em; */
+    img{
+        height: 5vh;
+        width: 4vw;
+       margin: 1rem 0 0 1rem;
+
+    }
+    h3{
+        color: green;
+        margin: 1.5rem 0 0 1.5rem;
+        font-size: 1rem;
+    }
+    input{
+        height: 25px;
+        border-radius: 20px;
+        width: 18rem;
+        margin:2% 0 0 10%;
+                
+    }
+    #search{
+        height: 20px;
+        position: absolute;
+        left: 47%;
+        top: 1.8%;
+    }
+    
+    }
+    .header_2{
+       
+        display: flex;
+        justify-content: end;
+        height: 50px;
+        width: 30vw ;
+        margin: 1% 0 0 0;
+        font-size: x-small;
+        align-items: center;
+        /* padding-left: 30rem; */
+       
+      
+        img{
+            /* border: 3px solid black; */
+            height: 5vh;
+            width: 3vw;
+            margin: 0 2%;
+            border-radius: 60%;
+        }
+        #bell{
+           
+            height: 18px;
+        }
+        select{
+            height: 25px;
+            border: none;
+          
+        }
+        
+        }
+    .Nav{
+        /*  border: 3px solid black; */
+        display: flex; 
+        flex-direction: column;  
+        width: 20vw;
+        height: 95vh;
+        font-weight:300;
+        font-size: 0.8em;
+        border-right: 1px solid gray;
+        padding-top: 0.5rem;
+
+        a:hover{
+            background-color: green;
+            color: white;
+        }
+        img{
+            height: 1.5em;
+        }
+        a{
+            /* border: 2px solid black; */
+            display: flex;
+            align-items: center;
+          /* margin: 2%; */
+          text-decoration: none;
+          padding: 10px;
+          color: black;
+        }
+        
+          }
+          .body_dash{
+            display: flex;
+            .appoint{
+                display: flex;
+                flex-direction: column;
+                margin-left: 2%;
+                
+               
+            }
+          }
+          .appoint{
+          .appoint_head{
+            display: grid;
+            grid-template-columns: 20% 20%;
+            column-gap: 60%;
+            margin-top: 3%;
+            align-items: center;
+            
+            input{
+                height: 25px;
+                border-radius: 5px;
+            }
+            button{
+                background-color: #128805;
+                height: 30px;
+                color: white;
+                border-radius: 5px;
+                margin-top: 0.5rem;
+               
+            }
+                    }          }
+.History{
+   th{
+    background-color: whitesmoke;
+   }
+            height: 60vh;
+            width: 50vw;
+            text-align: center;
+            border-radius: 10px;
+            font-size: 0.75rem;
+            td,tr{
+               padding: 0 2.5rem;
+               margin: 0 2rem;
+            }
+    }
+    
+    

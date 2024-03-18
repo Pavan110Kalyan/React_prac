@@ -1,0 +1,21 @@
+.faq{
+   // border: 3px solid black;
+    .faq_title{
+        h3{
+            text-align: center;
+            color: #413e66;
+            font-size: 2.25rem;
+            position: relative;
+            font-family: "Montserrat", sans-serif;
+            font-weight: 700;
+        }
+        p{
+            text-align: center;
+            color: #535074;
+            font-size: 1rem;
+        }
+    }
+    .faq_content{
+        background-color: white;
+    }
+}

@@ -1,0 +1,25 @@
+.clients{
+    padding: 1rem 0 3rem 0;
+    .client_title{
+        h3{
+            
+            font-size: 2.25rem;
+            text-align: center;
+            color: #413e66;
+            font-weight: 700;
+            position: relative;
+            font-family: "Montserrat", sans-serif;
+        }
+    }
+    .client_img{
+        display: block;
+        // margin-left: 1rem;
+        //border: 2px solid black;
+        // margin-right: 3rem;
+        img{
+            height: 5rem;
+            width: 9rem;
+            padding: 0 1rem;
+        }
+    }
+}

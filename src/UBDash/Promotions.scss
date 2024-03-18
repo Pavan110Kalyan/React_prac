@@ -1,0 +1,69 @@
+.promotions{
+    display: grid;
+    grid-template-columns: 35% 65%;
+    margin: 1rem 2rem;
+    height: 10rem;
+    .promo_img{ 
+        height: 10rem;
+        img{
+            width: 100%;
+            height: 10rem;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+    }
+    .promo_info{
+        padding: 0.8rem 0 0 2rem;
+        height: 9.2rem;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        background-color: #a8c885;
+       .disco{
+        h1{
+            font-size: 1rem;
+            text-transform: capitalize;
+            margin: 0rem 0 0.3rem;
+            font-weight: 600;
+            span{
+                color: #ff385c;
+            }
+        }
+       }
+        h5{
+            font-size: 0.75rem;
+            margin: 0 0 0.5rem;
+            font-weight: 600;
+            span{
+                color: #ff385c;
+            }
+        }
+        .coupon{
+            display: flex;
+            justify-content: flex-end;
+            // border: 1px solid  black;
+            h3{
+                // border: 1px solid  black;
+                background-color: #2d80b5;
+                color: #fff;
+                border-radius: 10px;
+                font-size: 0.8rem;
+                font-weight: 600;
+                margin: 0 1rem 0 0;
+                padding: 0.5rem;
+                span{
+                    font-size: 0.9rem;
+                }
+            }
+        }
+        .valid{
+            display: flex;
+            justify-content: flex-end;
+            h4{
+                font-size: 0.8rem;
+                margin: 0rem 1rem 0 0;
+                padding-right: 1rem;
+                font-weight: 200;
+            }
+        }
+    }
+}

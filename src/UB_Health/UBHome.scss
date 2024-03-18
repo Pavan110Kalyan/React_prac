@@ -1,0 +1,49 @@
+.ub_home{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding-top: 4rem;
+    .ub_content{
+        padding: 2rem 0 0 3rem;
+      h1{
+        font-family: "Poppins",sans-serif!important;
+        font-size: 2.68rem;
+        color: #2d80b5;
+        text-transform: capitalize;
+        margin-bottom: 0;
+      }
+    h2{
+        font-size: 3rem;
+        color: #2d80b5;
+        text-transform: capitalize;
+        margin: 1rem 0 0 0;
+    }
+    h5{
+        font-size: 0.775rem;
+        margin: 0.8rem 0 0.8rem 0;
+        padding: 0.9rem 0 0 0;
+        color: #777;
+        width: 93%;
+        line-height: 2;
+    }
+    Button{
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: capitalize;
+        background-color: #2d80b5;
+        color: white;
+        border-radius: 30px;
+        margin-top: 1rem;
+        width: 7rem;
+        height: 2.5rem;
+    }
+    }
+    .ub_img{
+        // border: 3px solid black;
+        padding-top: 0.9rem;
+        img{
+        height: 95%;
+        width: 100%;
+        }
+
+    }
+}

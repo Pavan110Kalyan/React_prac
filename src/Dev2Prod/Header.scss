@@ -1,0 +1,61 @@
+.header{
+  display: flex;
+  flex-direction: column;
+  height: 6rem;
+  width: 100%;
+  // position: fixed;
+  top: 0%;
+ // background-color: white;
+  z-index:1;
+//  padding-top: 1rem;
+.social_links{
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 1.3rem;
+  height: 2rem;
+  padding-right: 7rem;
+  color: #535074;
+  .anticon{
+    
+    //font-size: 1.5rem;
+    margin-top: 1rem;
+}
+}
+#in:hover, #tw:hover, #ig:hover, #fb:hover{
+  color: #1bb1dc;
+}
+.navi{
+  // display: grid;
+  // grid-template-columns: 64% 36%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .dev2prod_img{
+    img{
+      height: 5rem;
+      width: 18rem;
+    }
+       padding: 0 0 0 6rem;
+  }
+  .navi_details{
+      display: flex;
+      column-gap: 2rem;
+      color: #413e66;
+      font-family: "Open Sans", sans-serif;
+      text-transform: capitalize;
+      //font-size: 2rem;
+      //font-weight: 100;
+      margin-top: 1rem;
+     // margin-left: 0rem;
+      cursor: pointer;
+      
+      h1{
+          font-size: 1rem;
+      }
+      h1:hover{
+          color:  #1bb1dc;
+      }
+      
+  }
+}
+}

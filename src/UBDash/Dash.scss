@@ -1,0 +1,803 @@
+.dash{
+    font-family: "Poppins",sans-serif!important;
+    display: flex;
+    .dash_container{
+        .dash_head{
+            display: grid;
+            grid-template-columns: 30% 40% 30%;
+            align-items: center;
+            // box-shadow: 0 0 5px black;
+            top: 0%;
+              border-bottom: 2px solid #f3f3f3;
+            height: 4rem;
+            width: 100%;
+            .head2{
+                display: none;
+            }
+            .head_img{
+                img{
+                    width: 50%;
+                    height: 2.5rem;
+                }
+            }
+            .head_nav{
+                text-transform: capitalize;
+                display: flex;
+                justify-content: space-between;
+                column-gap: 3%;
+                align-items: center;
+                h1{
+                    font-size: 1rem;
+                    font-weight: 200;
+                }
+            }
+            .head_log{
+                // border: 3px solid black;
+                display: flex;
+                column-gap: 8%;
+                align-items: center;
+                justify-content: flex-end;
+                margin-right: 1rem;
+                color: #2d80b5;
+                height: 3.8rem;
+                h2{
+                    font-size: 1.4rem;
+                    padding: 0.3rem 0.5rem 0.5rem;
+                    text-align: center;
+                    border-radius: 50%;
+                    background-color: #2d80b5;
+                    color: white;
+                    height: 1.2rem;
+                    width: 1.1rem;
+                }
+                h1{
+                    font-size: 1.5rem;
+                }
+                h3{
+                    border-radius: 5px;
+                    padding: 0.5rem;
+                    height: 1rem;
+                    width: 18%;
+                    background-color: #2d80b5;
+                    color: white;
+                    font-weight: 200;
+                    font-size: 0.85rem;
+                }
+            }
+        }
+        .dashbody{
+            display: flex;
+            .dash_info{
+                .dash_body{
+                    overflow: auto;
+                    .welcome_body{
+                        display: grid;
+                        grid-template-columns: 30% 70%;
+                        margin: 1rem 2rem;
+                        height: 12.5rem;
+                        border: 2px solid #f3f3f3;
+                        // box-shadow: 0 0 5px black;
+                        border-radius: 5px;
+                        .welcome_img{
+                            margin: 0.5rem 0 0 0.7rem;
+                            img{
+                                height: 11rem;
+                                border-radius: 50%;
+                            }
+                        }
+                        .welcome_info{
+                            text-transform: capitalize;
+                            margin: 2rem 0 0;
+                            .info_title{
+                                display: grid;
+                                grid-template-columns: 40% 60%;
+                                align-items: center;
+                                margin: 0 0 1.5rem;
+                                h2{
+                                    margin: 0 0;
+                                    font-size: 1rem;
+                                    font-weight: 700;
+                                }
+                                h4{
+                                    margin: 0 0;
+                                    font-size: 0.9rem;
+                                    font-weight: 400;
+                                    opacity: 0.7;
+                                }
+                            }
+                            .info_img{
+                                display: flex;
+                                column-gap: 3%;
+                                align-items: center;
+                                margin-right: 0.5rem;
+                               
+                               .info1{
+                                img{
+                                    // border: 2px solid black;
+                                    background-color: #2d80b5;
+                                    padding: 0.8rem;
+                                    height: 3.5rem;
+                                    width: 50%;
+                                    border-radius: 50%;
+                                }
+                                h4{
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    margin: 0 0 0.5rem;
+                                }
+                               }
+                                #img2{
+                                        background-color: #66b35b;
+                                }
+                                #img3{
+                                        background-color: #56bdb5;
+                    
+                                }
+                                #img4{
+                                        background-color: #ad7a96;
+                                    }
+                                #img5{
+                                        background-color: #c7a755;
+                                }
+                                #img6{
+                                        background-color: #56bdb5;
+                                    }
+                            }
+                        }
+                    }
+                    .promotions{
+                        display: grid;
+                        grid-template-columns: 35% 65%;
+                        margin: 1rem 2rem;
+                        height: 10rem;
+                        .promo_img{ 
+                            height: 10rem;
+                            img{
+                                width: 100%;
+                                height: 10rem;
+                                border-top-left-radius: 5px;
+                                border-bottom-left-radius: 5px;
+                            }
+                        }
+                        .promo_info{
+                            padding: 0.8rem 0 0 2rem;
+                            height: 9.2rem;
+                            border-top-right-radius: 5px;
+                            border-bottom-right-radius: 5px;
+                            background-color: #a8c885;
+                           .disco{
+                            h1{
+                                font-size: 1rem;
+                                text-transform: capitalize;
+                                margin: 0rem 0 0.3rem;
+                                font-weight: 600;
+                                span{
+                                    color: #ff385c;
+                                }
+                            }
+                           }
+                            h5{
+                                font-size: 0.75rem;
+                                margin: 0 0 0.5rem;
+                                font-weight: 600;
+                                span{
+                                    color: #ff385c;
+                                }
+                            }
+                            .coupon{
+                                display: flex;
+                                justify-content: flex-end;
+                                h3{
+                                    background-color: #2d80b5;
+                                    color: #fff;
+                                    border-radius: 10px;
+                                    font-size: 0.8rem;
+                                    font-weight: 600;
+                                    margin: 0 1rem 0 0;
+                                    padding: 0.5rem;
+                                    span{
+                                        font-size: 0.9rem;
+                                    }
+                                }
+                            }
+                            .valid{
+                                display: flex;
+                                justify-content: flex-end;
+                                h4{
+                                    font-size: 0.8rem;
+                                    margin: 0rem 1rem 0 0;
+                                    padding-right: 1rem;
+                                    font-weight: 200;
+                                }
+                            }
+                        }
+                    }
+                }
+                .care_center{
+                    // width: 75%;
+                    // border: 1px solid black;
+                    // box-shadow: 0 0 1px hsla(0,0%,50.2%,.3);
+                    text-transform: capitalize;
+                    margin-bottom: 3rem;
+                    .recommend{
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        margin: 0 1.5rem;
+                        h3{
+                            font-size: 1rem;
+                            font-weight: 700;
+                            margin-left: 0.5rem;
+                            font-family: "Poppins",sans-serif!important;
+                        }
+                    }
+                    .centers{
+                        display: grid;
+                        grid-template-columns: 32% 32% 32%;
+                        grid-gap: 2%;
+                        height: 58rem;
+                        margin: 0 1rem;
+                        .center1{
+                            .center1_info{
+                                h3{
+                                    margin-left: 5rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                .calender{
+                    margin: 1rem;
+                    border-radius: 10px;
+                    border: 2px solid #f3f3f3;
+                    h3{
+                        display: none;
+                    }
+                }
+                h3{
+                    margin: 1rem;
+                }
+                // .book_history{
+                //         height: 30rem;
+                //         width: 100%;
+                //         overflow: auto;
+                //         margin: 0.5rem;
+                //         // box-shadow: 0 0 5px black;
+                //         .bookings{
+                //             // width: 25%;
+                //             text-transform: capitalize;
+                //             margin-bottom: 1rem;
+                            
+                //             // overflow: auto;
+                //             .booking_history{
+                //                 border: 1px solid black;
+                //                 border-radius: 10px;
+                //                 margin-left: 0.7rem;
+                //                 .history_title{
+                //                     ul{
+                //                         padding-left: 2rem;
+                //                         li{
+                //                             list-style: circle;
+                //                             font-weight: 400;
+                //                             font-size: 1rem;
+                //                         }
+                //                     }
+                //                     .position_tag{
+                //                         position: absolute;
+                //                         display: flex;
+                //                         column-gap: 5%;
+                //                         left: 60%;
+                //                         top: 0;
+                //                         align-items: center;
+                //                         background-color: #2d80b5;
+                //                         color: white;
+                //                         // border: 1px solid black;
+                //                         border-bottom-left-radius: 10px;
+                //                         border-top-right-radius: 10px;
+                //                        height: 15%;
+                //                        width: 40%;
+                //                         img{
+                //                             background-color: #2d80b5;
+                //                             height: 2rem;
+                //                             width: 30%;
+                //                             border-radius: 50%;
+                //                         }
+                //                         h3{
+                //                             font-size: 0.8rem;
+                //                             margin: 1rem 0;
+                //                         }
+                //                     }
+                //                     h2{
+                //                         font-size: 1rem;
+                //                         margin: 0 0 1rem 1rem;
+                //                     }
+                //                 }
+                //                 .history_body{
+                //                     display: flex;
+                //                     padding-bottom: 1rem;
+                //                     .icon{
+                //                         margin: 1rem 0 0 1rem;
+                //                     }
+                //                     .historyBody_info{
+                //                         display: grid;
+                //                         grid-template-columns: 50% 50%;
+                //                         grid-gap: 4%;
+                //                         margin: 0 0;
+                //                         h4{
+                //                             margin: 0.3rem 1rem 0 1rem;
+                //                             font-size: 0.8rem;
+                //                             opacity: .8;
+                //                             font-weight: 500;
+                //                         }
+                //                         h3{
+                //                             margin: 0.5rem 1rem 0 1rem;
+                //                             font-size: 0.8rem;
+                //                             font-weight: 700;
+                //                         }
+                //                         .bookingID{
+                //                             h3{
+                //                                 text-transform: uppercase;
+                //                             }
+                //                         }
+                //                         .payment{
+                //                             h4{
+                //                                 margin: 0.3rem 0.5rem 0 0.5rem;
+                //                             }
+                //                         }
+                //                     }
+                //                 }
+                //             }
+                //         }
+                // }
+                .bookHistory{
+                        h3{
+                            margin: 1rem;
+                        }
+                        .book_history{
+                                height: 30rem;
+                                width: 100%;
+                                overflow: auto;
+                                margin: 0.5rem;
+                                // box-shadow: 0 0 5px black;
+                                .bookings{
+                                    // width: 25%;
+                                    text-transform: capitalize;
+                                    margin-bottom: 1rem;
+                                    
+                                    // overflow: auto;
+                                    .booking_history{
+                                        border: 1px solid black;
+                                        border-radius: 10px;
+                                        margin-left: 0.7rem;
+                                        .history_title{
+                                            ul{
+                                                padding-left: 2rem;
+                                                li{
+                                                    list-style: circle;
+                                                    font-weight: 400;
+                                                    font-size: 1rem;
+                                                }
+                                            }
+                                            .position_tag{
+                                                position: absolute;
+                                                display: flex;
+                                                column-gap: 5%;
+                                                left: 60%;
+                                                top: 0;
+                                                align-items: center;
+                                                background-color: #2d80b5;
+                                                color: white;
+                                                // border: 1px solid black;
+                                                border-bottom-left-radius: 10px;
+                                                border-top-right-radius: 10px;
+                                               height: 15%;
+                                               width: 40%;
+                                                img{
+                                                    background-color: #2d80b5;
+                                                    height: 2rem;
+                                                    width: 30%;
+                                                    border-radius: 50%;
+                                                }
+                                                h3{
+                                                    font-size: 0.9rem;
+                                                    margin: 0rem 0;
+                                                }
+                                            }
+                                            h2{
+                                                font-size: 1rem;
+                                                margin: 0 0 1rem 1rem;
+                                            }
+                                        }
+                                        .history_body{
+                                            display: flex;
+                                            padding-bottom: 1rem;
+                                            .icon{
+                                                margin: 1rem 0 0 1rem;
+                                            }
+                                            .historyBody_info{
+                                                display: grid;
+                                                grid-template-columns: 50% 50%;
+                                                grid-gap: 4%;
+                                                margin: 0 0;
+                                                h4{
+                                                    margin: 0.3rem 1rem 0 1rem;
+                                                    font-size: 0.8rem;
+                                                    opacity: .8;
+                                                    font-weight: 500;
+                                                }
+                                                h3{
+                                                    margin: 0.5rem 1rem 0 1rem;
+                                                    font-size: 0.8rem;
+                                                    font-weight: 700;
+                                                }
+                                                .bookingID{
+                                                    h3{
+                                                        text-transform: uppercase;
+                                                    }
+                                                }
+                                                .payment{
+                                                    h4{
+                                                        margin: 0.3rem 0.5rem 0 0.5rem;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                        }
+                    }
+                    
+                                
+                    
+                    
+                }
+            }
+        }
+        
+    }
+
+
+@media only screen and (min-width:769px){
+      .dash{
+        .dash_container{
+            .dashbody{
+                .dash_info{
+                    #ipad{
+                        display: none !important;
+                    }
+                    .calender{
+                        #table{
+                            display: none !important;
+                        }
+                    }
+                }
+               }
+        }
+      }
+    }
+
+@media only screen and (max-width:56.25em){     //ipad
+   .dash{
+    font-family: "Poppins",sans-serif!important;
+    .dash_container{
+        .dash_head{
+            display: grid;
+            grid-template-columns: 40% 50% 10% !important;
+            height: 8rem;
+            box-shadow: none !important;
+            // border-bottom: 2px solid #f3f3f3;
+            .head_img,.head_log,.head_nav{
+                display: none;
+            }
+            .head2{
+                display: flex;
+               h3{
+               margin: 2rem 0 0 4rem;
+            //    height: 5.5rem;
+               }
+               img{
+                height: 4rem;
+                margin: 0 0 0 15rem;
+               }
+                .rem{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 15rem;
+                    column-gap: 60%;
+                    h2{
+                        font-size: 1.4rem;
+                        padding: 0.3rem 0.5rem 0.5rem;
+                        text-align: center;
+                        border-radius: 50%;
+                        background-color: #2d80b5;
+                        color: white;
+                        height: 1.3rem;
+                        width: 1.2rem;
+                    }
+                    h1{
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+    }
+    .dashbody{
+        .dash_info{
+            display: flex;
+            flex-direction: column;
+           #web{
+            display: none;
+           }
+            .dash_body{
+                overflow-x: hidden;
+                .welcome_body{
+                    height: 24rem !important;
+                    display: flex !important;
+                    flex-direction: column;
+                    width: 97%;
+                    text-align: center;
+                    margin: 1rem 0 3rem!important;
+                    padding: 0rem 0;
+                    box-shadow: none !important;
+                    .welcome_img{
+                        display: none;
+                    }
+                    .welcome_info{
+                        display: flex;
+                        flex-direction: column;
+                        .info_title{
+                            display: flex !important;
+                            justify-content: center;
+                            h2{
+                                font-size: 2rem !important;
+                                font-weight: 700;
+                            }
+                            h4{
+                                display: none;
+                            }
+                        }
+                        .info_img{
+                            display: grid !important;
+                            grid-template-columns: 33% 33% 33%;
+                            grid-gap: 3%;
+                            .info1{
+                                img{
+                                    height: 5rem !important;
+                                    width: 40% !important;
+                                }
+                                h4{
+                                    font-size: 1.5rem !important;
+                                    font-weight: 600 !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .care_center{
+                margin-top: 2rem;
+                .recommend{
+                    h3{
+                        font-size: 1.4rem !important;
+                    }
+                }
+                .centers{
+                    // overflow-x: hidden;
+                    .center1{
+                        .center1_img{
+                            .positions{
+                                .disco_fav, .name_check{
+                                   h2{
+                                    margin: 0 6rem 0 0;
+                                   }
+                                }
+                            }
+                        }
+                        .center1_info{
+                            h4{
+                                font-size: 0.9rem;
+                            }
+                            .ratings_cost{
+                                h3{
+                                    margin: 1rem 0 1rem 1.5rem !important;
+                                }
+                            }
+                        }
+                    }
+                }
+                
+            }
+            .calender{
+                box-shadow: none !important;
+                h3{
+                    display: unset !important;
+                    font-size: 2rem;
+                }
+                table{
+                    background-color: #f2f6f6;
+                    padding: 1.5rem 0;
+                    th,td{
+                        font-size: 2rem;
+                        padding: 1rem 2rem !important;
+                    }
+                }
+                .cal{
+                    display: none;
+                }
+            }
+            .bookHistory{
+                display: unset;
+                overflow-x: hidden;
+                margin: 1rem 0 3rem !important;
+                #h3{
+                    font-size: 1.2rem;
+                    color: #2d80b5;
+                }
+                .book_history{
+                    display: grid;
+                    grid-template-columns: 45% 45%;
+                    grid-gap: 2%;
+                    margin: 0 !important;
+                    margin-left: 1rem !important;
+                    width: 90%;
+                    .bookings{
+                        .booking_history{
+                            .history_title{
+                                .position_tag{
+                                    h3{
+                                        color: white !important;
+                                    }
+                                }
+                            }
+                            .history_body{
+                                .historyBody_info{
+                                    h3{
+                                        font-size: 1rem !important;
+                                    }
+                                    h4{
+                                        font-size: 0.9rem !important;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+   }
+}
+
+@media only screen and (max-width: 37.5em){
+    .dash{
+        width: 80%;
+        height: 100%;
+        // overflow-y: auto;
+        .dash_container{
+            .dash_head{
+                height: 12rem;
+                background-color: #2d80b5;
+                h3,h1{
+                    color: white;
+                }
+                h2{
+                    background-color: #fff !important;
+                    color: #2d80b5 !important;
+                }
+            }
+        }
+        .dashbody{
+            .dash_info{
+                .dash_body{
+                    height: 40rem !important;
+                    .welcome_body{
+
+                    }
+                    .promotions{
+                        height: 11rem !important;
+                        .promo_info{
+                            height: 10rem !important;
+                            h5{
+                                margin-bottom: 0 !important;
+                            }
+                        }
+                        .promo_img{
+                            img{
+                                height: 10.8rem !important;
+                            }
+                        }
+                    }
+                }
+                .care_center{
+                    margin-bottom: 20rem !important;
+                    h3{
+                        font-size: 1.5rem !important;
+                    }
+                    .centers{
+                        display: flex !important;
+                        flex-direction: column;
+                        .center1{
+                            .center1_img{
+                                .positions{
+                                    .disco_fav{
+                                        h2{
+                                            margin-right: 38rem !important;
+                                        }
+                                    }
+                                }
+                            }
+                            .center1_info{
+                                h2{
+                                    font-size: 1rem !important;
+                                }
+                                h4{
+                                    font-size: 0.9rem !important;
+                                }
+                                .ratings_cost{
+                                    h3{
+                                        margin-left: 28rem;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .calender{
+                    margin-top: 120rem !important;
+                    h3{
+                        display: unset !important;
+                    }
+                }
+                .bookHistory{
+                    #h3{
+                        font-size: 2rem !important;
+                    }
+                    .book_history{
+                        display: flex !important;
+                        flex-direction: column;
+                        width: 90% !important;
+                       .bookings{
+                        .booking_history{
+                            height: 13rem !important;
+                            width: 87% !important;
+                            .history_title{
+                                ul{
+                                    li{
+                                        font-size: 1.5rem !important;
+                                    }
+                                }
+                                h2{
+                                    font-size: 1.5rem !important;
+                                }
+                                .position_tag{
+                                    width: 20% !important;
+                                    left: 68.7% !important;
+                                    h3{
+                                        display: flex !important;
+                                        color: white !important;
+                                        margin: 0 !important;
+                                        font-size: 1rem !important;
+                                    }
+                                    img{
+                                        width: 20% !important;
+                                    }
+                                }
+                            }
+                            .history_body{
+                                .historyBody_info{
+                                    h3{
+                                        font-size: 1rem !important;
+                                    }
+                                    h4{
+                                        font-size: 0.8rem !important;
+                                    }
+                                }
+                            }
+                        }
+                       }
+                    }
+                }
+            }
+        }
+    }
+}

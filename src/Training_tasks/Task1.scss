@@ -1,0 +1,95 @@
+.med_manage{
+    border: 2px solid black;
+    margin-left: 18rem;
+    width: 50%;
+    padding: 1rem 0 2rem;
+    background: whitesmoke;
+    .manage_header{
+        display: flex;
+        align-items: center;
+        column-gap: 2%;
+        border: 2px solid white;
+        background: white;
+        border-radius: 10px;
+        // width: 60%;
+        // margin-left: 1rem;
+        img{
+            height: 5rem;
+            width: 13%;
+        }
+    }
+    .manage_body{
+        margin: 0 2rem;
+        .inputs{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            // display: flex;
+            align-items: center;
+            column-gap: 2%;
+            label{
+                margin: 1rem 0;
+                font-size: 1rem;
+                font-weight: 700;
+            }
+            Input{
+                height: 2.2rem;
+                width: 50%;
+            }
+        }
+        .check, .radio{
+            // display: flex;
+            // align-items: center;
+            // justify-content: center;
+            display: grid;
+            grid-template-columns: 30% 70%;
+            align-items: center;
+            column-gap: 2%;
+            // .check_in{
+            //     display: grid;
+            //     grid-template-columns: 50% 50%;
+            // }
+            // .label{
+            //     display: flex;
+            // }
+        }
+        .switch{
+            display: grid;
+            grid-template-columns: 30% 18%;
+            align-items: center;
+            column-gap: 2%;
+        }
+        .exp_date{
+            display: grid;
+            grid-template-columns: 30% 30%;
+            align-items: center;
+            column-gap: 2%;
+        }
+        .select{
+            display: grid;
+            grid-template-columns: 30% 70%;
+            align-items: center;
+            column-gap: 2%;
+            .select_drop{
+                .ant-select-selector{
+                    width: 11rem;
+                }
+            }
+            
+        }
+        .submit{
+            margin-top: 1rem;
+            text-align: center;
+        }
+    }
+}
+.table{
+    margin-top: 3rem ;
+    tr{
+        text-align: center;
+    }
+    .action{
+        display: flex;
+        column-gap: 2%;
+        justify-content: center;
+    }
+}

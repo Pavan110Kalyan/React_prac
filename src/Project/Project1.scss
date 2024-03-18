@@ -1,0 +1,30 @@
+.project_container{
+    text-transform: capitalize;
+    .project_header{
+        display: flex;
+        column-gap: 3%;
+    }
+    .project_body{
+        display: grid;
+        grid-template-columns: 30% 30% 30%;
+      .card1{
+        display: flex;
+        border: 3px solid black;
+        border-radius: 12px;
+        .card_aside{
+            border: 2px solid black;
+           width: 20%;
+            h1{
+                text-align: center;
+                rotate: 270deg;
+            }
+        }
+        .card_content{
+            .card_head{
+                display: flex;
+                justify-content: end;
+            }
+        }
+      }
+    }
+}

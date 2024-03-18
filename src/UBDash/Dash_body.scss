@@ -1,0 +1,150 @@
+.dash_body{
+    overflow: auto;
+    .welcome_body{
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 1rem 2rem;
+        height: 12.5rem;
+        // border: 2px solid black;
+        box-shadow: 0 0 5px black;
+        border-radius: 5px;
+        .welcome_img{
+            margin: 0.5rem 0 0 0.7rem;
+    
+            img{
+                height: 11rem;
+                border-radius: 50%;
+            }
+        }
+        .welcome_info{
+            text-transform: capitalize;
+            margin: 2rem 0 0;
+            .info_title{
+                display: grid;
+                grid-template-columns: 40% 60%;
+                align-items: center;
+                margin: 0 0 1.5rem;
+                h2{
+                    margin: 0 0;
+                    font-size: 1rem;
+                }
+                h4{
+                    margin: 0 0;
+                    font-size: 0.8rem;
+                    font-weight: 100;
+                }
+            }
+            .info_img{
+                display: flex;
+                column-gap: 1.5%;
+                align-items: center;
+                margin-right: 0.5rem;
+               
+                img{
+                    // border: 2px solid black;
+                    background-color: #2d80b5;
+                    padding: 0.8rem;
+                    height: 3.5rem;
+                    width: 10%;
+                    border-radius: 50%;
+                }
+                #img2{
+                        background-color: #66b35b;
+                }
+                #img3{
+                        background-color: #56bdb5;
+    
+                }
+                #img4{
+                        background-color: #ad7a96;
+                    }
+                #img5{
+                        background-color: #c7a755;
+                }
+                #img6{
+                        background-color: #56bdb5;
+                    }
+            }
+            .infoImg_details{
+                display: flex;
+                column-gap: 5.2%;
+                // margin-right: 0.3rem;
+                margin-left: 0.3rem;
+                h4{
+                    font-size: 0.9rem;
+                    font-weight: 100;
+                    margin: 0 0 0.5rem;
+                }
+            }
+        }
+    }
+    .promotions{
+        display: grid;
+        grid-template-columns: 35% 65%;
+        margin: 1rem 2rem;
+        height: 10rem;
+        .promo_img{ 
+            height: 10rem;
+            img{
+                width: 100%;
+                height: 10rem;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+        }
+        .promo_info{
+            padding: 0.8rem 0 0 2rem;
+            height: 9.2rem;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+            background-color: #a8c885;
+           .disco{
+            h1{
+                font-size: 1rem;
+                text-transform: capitalize;
+                margin: 0rem 0 0.3rem;
+                font-weight: 600;
+                span{
+                    color: #ff385c;
+                }
+            }
+           }
+            h5{
+                font-size: 0.75rem;
+                margin: 0 0 0.5rem;
+                font-weight: 600;
+                span{
+                    color: #ff385c;
+                }
+            }
+            .coupon{
+                display: flex;
+                justify-content: flex-end;
+                // border: 1px solid  black;
+                h3{
+                    // border: 1px solid  black;
+                    background-color: #2d80b5;
+                    color: #fff;
+                    border-radius: 10px;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                    margin: 0 1rem 0 0;
+                    padding: 0.5rem;
+                    span{
+                        font-size: 0.9rem;
+                    }
+                }
+            }
+            .valid{
+                display: flex;
+                justify-content: flex-end;
+                h4{
+                    font-size: 0.8rem;
+                    margin: 0rem 1rem 0 0;
+                    padding-right: 1rem;
+                    font-weight: 200;
+                }
+            }
+        }
+    }
+}

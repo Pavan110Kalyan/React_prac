@@ -1,0 +1,61 @@
+.why{
+  //  border: 3px solid black;
+    padding: 3rem 0;
+    .why_title{
+        padding-top: 1.5rem;
+        h3{
+            text-align: center;
+            color: #413e66;
+            font-size: 2.25rem;
+            font-family: "Montserrat", sans-serif;
+        }
+        p{
+            text-align: center;
+            color: #535074;
+            font-size: 1rem;
+        }
+    }
+    .why_content{
+        display: grid;
+        grid-template-columns: 50% 45%;
+        .why_img{
+            img{
+                height: 25rem;
+                width: 40rem;
+                margin-top: 1rem;
+            }
+        }
+        .why_content_info{
+            //border: 3px solid black;
+            .content_info_para1{
+                display: grid;
+                grid-template-rows: 29% 10%;
+                //border: 2px solid black;
+               // height: 11rem;
+                .img_content{
+                    display: flex;
+                img{
+                    height: 2.3rem;
+                    width: 2.5rem;
+                    margin-top: 1rem;
+                    padding: 0.9rem 1rem 0rem 1rem;
+                } 
+                h4{
+                    font-size: 1.5rem;
+                    color: #413e66;
+                    font-family: "Montserrat", sans-serif;
+                }
+            }
+            p{
+                margin-left: 4.5rem;
+            }
+            }
+            p{
+                font-size: 1rem;
+                color: #555186;
+                margin-left: 1.5rem;
+            }
+        }
+
+    }
+}

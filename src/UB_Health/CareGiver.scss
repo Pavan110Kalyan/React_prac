@@ -1,0 +1,57 @@
+.caregiver{
+    display: flex;
+    // border: 3px solid black;
+    background-color: #e6e6e6;
+    img{
+        height: 100%;
+        width: 65%;
+        margin-left: 25rem;
+    }
+    .caregiver_info{
+        position: absolute;
+        z-index: 1;
+        width: 45%;
+        margin-top: 6rem;
+        margin-left: 5rem;
+        h1,h2{
+            font-size: 2.4rem;
+            color: #2d80b5;
+            margin: 0 0 0.8rem;
+            font-weight: 200;
+            font-family: "Poppins",sans-serif!important;
+            text-transform: capitalize;
+        }
+        h2{
+            font-weight: 900;
+        }
+        h3{
+            text-transform: capitalize;
+            font-size: 1.4rem;
+            color: #2d80b5;
+            margin: 0 0 0.8rem;
+            font-weight: 700;
+            letter-spacing: 1px;
+            font-family: "Poppins",sans-serif!important;
+        }
+        h5{
+            text-align: justify;
+            color: #777;
+            font-weight: 600;
+            font-size: 1rem;
+            width: 80%;
+            word-spacing: 2px;
+            line-height: 20px;
+
+        }
+        Button{
+            background-color: #2d80b5;
+            color: white;
+            border-radius: 25px;
+            text-transform: capitalize;
+            font-size: 0.8rem;
+            font-weight: 600;
+            width: 10rem;
+            height: 2.5rem;
+        }
+    }
+}

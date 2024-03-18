@@ -1,0 +1,100 @@
+.bookHistory{
+    h3{
+        margin: 1rem;
+    }
+    .book_history{
+            height: 30rem;
+            width: 100%;
+            overflow: auto;
+            margin: 0.5rem;
+            // box-shadow: 0 0 5px black;
+            .bookings{
+                // width: 25%;
+                text-transform: capitalize;
+                margin-bottom: 1rem;
+                
+                // overflow: auto;
+                .booking_history{
+                    border: 1px solid black;
+                    border-radius: 10px;
+                    margin-left: 0.7rem;
+                    .history_title{
+                        ul{
+                            padding-left: 2rem;
+                            li{
+                                list-style: circle;
+                                font-weight: 400;
+                                font-size: 1rem;
+                            }
+                        }
+                        .position_tag{
+                            position: absolute;
+                            display: flex;
+                            column-gap: 5%;
+                            left: 60%;
+                            top: 0;
+                            align-items: center;
+                            background-color: #2d80b5;
+                            color: white;
+                            // border: 1px solid black;
+                            border-bottom-left-radius: 10px;
+                            border-top-right-radius: 10px;
+                           height: 15%;
+                           width: 40%;
+                            img{
+                                background-color: #2d80b5;
+                                height: 2rem;
+                                width: 30%;
+                                border-radius: 50%;
+                            }
+                            h3{
+                                font-size: 0.8rem;
+                                margin: 1rem 0;
+                            }
+                        }
+                        h2{
+                            font-size: 1rem;
+                            margin: 0 0 1rem 1rem;
+                        }
+                    }
+                    .history_body{
+                        display: flex;
+                        padding-bottom: 1rem;
+                        .icon{
+                            margin: 1rem 0 0 1rem;
+                        }
+                        .historyBody_info{
+                            display: grid;
+                            grid-template-columns: 50% 50%;
+                            grid-gap: 4%;
+                            margin: 0 0;
+                            h4{
+                                margin: 0.3rem 1rem 0 1rem;
+                                font-size: 0.8rem;
+                                opacity: .8;
+                                font-weight: 500;
+                            }
+                            h3{
+                                margin: 0.5rem 1rem 0 1rem;
+                                font-size: 0.8rem;
+                                font-weight: 700;
+                            }
+                            .bookingID{
+                                h3{
+                                    text-transform: uppercase;
+                                }
+                            }
+                            .payment{
+                                h4{
+                                    margin: 0.3rem 0.5rem 0 0.5rem;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+    }
+}
+
+            
+

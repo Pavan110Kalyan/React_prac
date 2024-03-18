@@ -1,0 +1,115 @@
+.center1{
+    width: 100%;
+    height: 18rem;
+    border-radius: 10px;
+    border: 2px solid #f3f3f3;
+    margin: 0 0;
+
+   
+    .center1_img{
+        position: relative;
+        img{
+            height: 10rem;
+            width: 100%;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+            z-index: -1;
+        }
+       
+        .positions{
+            position: absolute;
+            top: 0%;
+            .disco_fav,.name_check{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                position: relative;
+                top: 0%;
+                // border: 3px solid black;
+                // width: 100%;
+                h2{
+                    font-size: 0.9rem;
+                    margin: 0  10.3rem 0 0;
+                    border-radius: 5px;
+                    background-color: #ffd700;
+                    padding: 0 0.5rem;
+                }
+                .anticon{
+                   background-color: red;
+                   color: black;
+                   border-radius: 15px;
+                }
+            }
+            .name_check{
+                margin-top: 6rem;
+                height: 4.5rem;
+                h2{
+                    background-color: black;
+                    color: white;
+                    opacity: 0.6;
+                    font-weight: 300;
+                    font-size: 0.8rem;
+                }
+                .anticon{
+                    background-color: #2d80b5;
+                    color: white;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+   .center1_info{
+    padding: 0.6rem;
+    // border: 3px solid black;
+    h2{
+        margin: 0 0;
+        font-size: 1.2rem;
+    }
+    h4{
+        margin: 0.2rem 0;
+        font-size: 1rem !important;
+        font-weight: 300;
+    }
+    .ratings_cost{
+        display: flex;
+        // margin: 0rem 0 0;
+        .star{
+                display: flex;
+                flex-direction: column;
+            ul{
+                display: flex;
+                margin: 1rem 0 0.3rem;
+                padding-left: 0;
+                li{
+                    list-style: none;
+                   .anticon{
+                    color: gold;
+                    cursor: pointer;
+                   }
+                }
+            }
+            h4{
+                font-size: 0.8rem;
+                margin: 0 0;
+                text-transform: none;
+            }
+        }
+        h3{
+            font-size: 0.98rem;
+            font-weight: 700;
+            margin: 1rem 0 0 5rem;
+            color: #2d80b5;
+            text-transform: none;
+            span{
+                font-weight: 300;
+                color: black;
+                #on_wards{
+                    font-size: 1rem;
+                    font-weight: 300;
+                    color: black;
+                }
+            }
+        }
+    }
+   }
+}
